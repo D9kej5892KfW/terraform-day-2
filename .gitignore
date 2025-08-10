@@ -1,0 +1,24 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files (may contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
