@@ -26,6 +26,8 @@ resource "aws_s3_bucket" "my_first_bucket" {
     Name        = "My First Terraform Bucket"
     Purpose     = "Learning"
     CreatedWith = "Terraform"
+    Environment = "Development"
+    LastModified = "Today"
   }
 }
 

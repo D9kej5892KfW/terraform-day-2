@@ -7,7 +7,8 @@
       "Bash(chmod:*)",
       "Bash(sudo mv:*)",
       "Bash(gh repo create:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:docs.anthropic.com)"
     ],
     "deny": []
   }
